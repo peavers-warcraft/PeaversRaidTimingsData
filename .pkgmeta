@@ -1,0 +1,17 @@
+package-as: PeaversRaidTimingsData
+
+ignore:
+  - .git
+  - .github
+  - .gitignore
+  - .editorconfig
+  - .pkgmeta
+  - README.md
+  - CHANGELOG.md
+  - LICENSE
+  - local_deploy.sh
+  - local_deploy.ps1
+  - catalog-info.yaml
+  # Local LuaLS/addon validation scratch: gitignored, but belt-and-braces so a
+  # package built from a dirty working copy can never ship absolute local paths.
+  - .validate
