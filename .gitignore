@@ -1,0 +1,7 @@
+.idea
+*.iml
+.DS_Store
+
+# Local LuaLS / addon validation scratch. Embeds absolute paths from this
+# machine and would otherwise be packaged into the released zip.
+.validate/

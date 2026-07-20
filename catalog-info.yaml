@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: PeaversRaidTimingsData
+  description: "A data library addon for World of Warcraft that provides ghost replay cast timelines consumed by PeaversRaidTimings: for each encounter, difficulty and spec, one top-ranked player's actual cast timeline transcribed verbatim from lorrgs.io, with full attribution, so players can race their run against a real one."
+  annotations:
+    github.com/project-slug: peavers-warcraft/PeaversRaidTimingsData
+spec:
+  type: library
+  lifecycle: production
+  owner: peavers-warcraft

@@ -1,0 +1,16 @@
+## Interface: 120001, 120005, 120007
+## Title: |cff3abdf7Peavers|rRaidTimingsData
+## Notes: Ghost replay cast timelines for PeaversRaidTimings and others
+## Author: Peavers
+## Version: 0.1.0
+# NOTE: src\Media\Icon.tga does not exist yet - see src\Media\README.md. WoW simply
+# shows no icon until the art is added at that exact path; the directive is correct
+# as written, so drop the .tga in and nothing here needs to change.
+## IconTexture: Interface\AddOns\PeaversRaidTimingsData\src\Media\Icon.tga
+## Category-enUS: Peavers
+## X-Website: https://peavers.io
+## X-Source-Code: https://github.com/peavers-warcraft/PeaversRaidTimingsData
+
+Changelog.lua
+src\Data\RaidTimings.lua
+src\Api\Api.lua
